@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #c33764;
+  background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+  background: linear-gradient(to right, #1d2671, #c33764);
+}
+.myBackground {
+  background: #c33764;
+  background: -webkit-linear-gradient(to left, #1d2671, #c33764);
+  background: linear-gradient(to left, #1d2671, #c33764);
+}
+.myGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.myDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+input {
+  width: 170px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #b13565;
+  background-color: #2f276f;
+  border: none;
+}
+.o {
+  background-color: #b13565;
+  color: #2f276f;
+}
+button {
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #ef6585;
+  background-color: #20a39e;
+}
+.forTable {
+  width: 100%;
+  height: 590px;
+}
+.playerP {
+  display: flex;
+  justify-content: space-between;
+}
+.pointX,
+.pointO {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  margin-inline: 15%;
+  display: none;
+  border: none;
+}
+.pointO {
+  background-color: #b13565;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #2f276f;
+}
+.pointX {
+  background-color: #2f276f;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #b13565;
+}
+.text {
+  width: 250px;
+  height: 80px;
+  border-radius: 6px;
+  display: none;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  color: #20a39e;
+  padding-top: 20px;
+}
+.noWin{
+    width: 250px;
+    height: 80px;
+    margin-inline: center;
+    border-radius: 6px;
+    display: none;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    color: #20a39e;
+    padding-top: 20px;
+    padding-inline: 80px;
+}
+.tdX {
+  background-image: url(../img/x.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size: 35px;
+}
+.tdO {
+  background-image: url(../img/x.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size: 35px;
+}
+.x {
+  background-color: #1d2671;
+  color: #b13565;
+}
+.o {
+  background-color: #b13565;
+  color: #2f276f;
+}
+table {
+  position: absolute;
+  left: 32.5%;
+  top: 20%;
+  border-collapse: separate;
+  border-spacing: 0;
+  cursor: pointer;
+}
+td {
+  width: 180px;
+  height: 180px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  background-color: white;
+  border-radius: 20px;
+  font-size: 100px;
+  text-align: center;
+}
+.gameOver{
+    width: 100vw;
+    height: 100vh;
+    background-color: #20a39e;
+    text-align: center;
+    color: #1f3030;
+    font-size: 100px;
+}
